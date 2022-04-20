@@ -1,11 +1,11 @@
 fun main() {
-    doWork(34, "Christine Ians", true, 899036787)
+    doWork(12, "Christine Ians", true, 17789564)
     country(32,"Nakuru",true, 11)
 }
 
 fun doWork(age: Int, name: String, isHappy: Boolean, foe: Long) {
     if (age < 21) {
-        println("$name, you are not old enough, you are $Long")
+        println("$name, you are not old enough, you are $age years old")
     } else {
         println("$name, for too old at the ripe age of $age.")
     }
